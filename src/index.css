@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +11,131 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.sidebar{
+  font-size: 16px;
+  font-family:'Courier New', Courier, monospace;
+  padding-left: 10px;
+}
+
+.chart,.tables{
+  padding-left: 13px;
+}
+.card-title{
+  font-size: 14px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left{
+  border-left:3px solid blue;
+}
+
+.btn-circle{
+  width: 40px;
+  height: 40px;
+  padding: 6px 0px;
+  border-radius: 300px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857; 
+}
+
+.btn-sm{
+  width: 30px;
+  height: 30px;
+  padding: 6px 0px;
+  border-radius: 300px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857; 
+}
+
+.btn-lg{
+  width: 65px;
+  height: 65px;
+  padding: 6px 0px;
+  border-radius: 300px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.42857; 
+}
+
+p{
+  margin-top: 10px;;
+}
+
+
+
+.btn-btn{
+  margin-left: 10px;
+  border:none;
+}
+
+ 
+.btn-icon-split{
+  display:flex;
+  margin-top: 10px;
+}
+
+.start{
+ 
+  padding:12px;
+  background-color: gray;
+  width:max-content;
+}
+
+.right{
+  padding-left: 12px;
+}
+
+.card-1-first{
+    border:3px solid gray;
+    background-color:grey;
+}
+
+.first{
+  text-align: start;
+}
+
+.text-gray-500,.text-gray-600,.text-gray-700,.text-gray-800,.text-gray-900{
+  color: grey;
+}
+
+#loginemail,#loginpassword,#logincheckbox,#loginbutton,#glogin,#flogin{
+  padding-top: 10px;
+  margin-top: 10px;
+  border-radius: 15px;
+  color:whitesmoke;
+  text-align: center;
+
+}
+.login-left,.login-right{
+ 
+   margin-top: 140px;
+}
+.login-left{
+  margin-left: 50px;
+}
+#adorablepuppy{
+  width:100%;
+  height:480px;
+}
+#puppy{
+  width:100%;
+  height:300px;
+}
+
+.fa-google,.fa-facebook-f{
+  padding-right: 15px;
+}
+
+.login-label{
+  padding-left: 15px;
+}
+
+.login-container{
+  font-size: 19px;
+  font-family: 'Times New Roman', Times, serif;
+ 
 }
